@@ -16,15 +16,13 @@ CREATE TABLE cstebbins_letter_count_1 AS
             AS letter FROM cstebbins_doc_2) w 
         GROUP BY letter ORDER BY letter;
 
-Located at cstebbins_letter_count_1
-
-***Code***
-
-Located at /tmp/cstebbins-lettercount-1
-
+3-1
+Located at /cstebbins/cstebbins_letter_count_1
+(run on my resume, tmp/stebbins_hello.txt file)
 
 3-2
-IN PROGRESS
+Located at /cstebbins/cstebbins_word_count_job_2_set_7
+(run on my resume, tmp/stebbins_hello.txt file)
 
 3-3
 One problem in our manner of set up is our intake of data. Big Data generally follows the 3 (or more) V’s, dealing with data velocity, volume, and variability. The way we handled our data was not the big data vibe in that it did not take the V’s, in this case especially volume, into account. Instead, all the data was uploaded to one single node. In a big data scenario, the data should be distributed and replicated to at least 3 nodes, with data chunks split up for storage on more than one machine. To fix this, I would, as described above, put the data through a streaming process to storage on multiple nodes with replication.
